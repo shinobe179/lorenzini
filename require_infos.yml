@@ -1,0 +1,18 @@
+---
+require_infos:
+  frame:
+    - frame.number
+    - frame.time
+    - frame.len
+  http_request:
+    - http.request.method
+    - http.request.uri
+    - http.request.version
+    - http.user_agent
+  http_response:
+    - http.response.version
+    - http.response.code
+    - http.response.code.desc
+    - http.time
+
+...
