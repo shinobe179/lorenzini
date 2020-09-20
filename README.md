@@ -3,6 +3,15 @@
 Lorenzini is the JSON parser to make packet analyzing by Wireshark more easier.
 You can get packet informations as you want, and analyze them by Google Spreadsheet or Microsoft Office Excel.
 
+# Functions
+
+- Link HTTP request and response by frame number.
+- Select information as you like, each packet type.
+    - frame
+    - HTTP
+        - request
+        - response
+
 # How to use
 
 - Capture packets by Wireshark
