@@ -100,7 +100,10 @@ class LorenziniClient:
             if name in infos_in_request_line:
                 ret[name] = urllib.parse.unquote(request_line_info[name])
             else:
-                ret[name] = urllib.parse.unquote(http_request[name])
+                try:
+                    ret[name] = urllib.parse.unquote(http_request[name])
+                except KeyError:
+                    ret[name] = '--None--'
 
         return ret
 
