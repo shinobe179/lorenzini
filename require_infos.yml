@@ -9,6 +9,8 @@ require_infos:
     - http.request.uri
     - http.request.version
     - http.user_agent
+    - http.cookie
+    - http.accept_encoding
   http_response:
     - http.response.version
     - http.response.code
